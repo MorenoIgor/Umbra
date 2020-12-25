@@ -262,8 +262,8 @@ class Umbra {
 	 * @param {!function} setup - The function to run when the framework is ready to start.
 	 * @param {!function} loadState - The game state to use while loading assets.
 	 * @param {!string} [title = 'Umbra'] - The tab title.
-	 * @param {!string[]} [assetPaths = []] - List of paths to asset files to preload.
 	 * @param {!string} [backgroundColor = '#000'] - The background color of the canvas.
+	 * @param {!string[]} [assetPaths = []] - List of paths to asset files to preload.
 	 * @param {!number} [fps = 60] - The target frames per second of the game loop.
 	 * @param {!Vector2} [size = { x: innerWidth, y: innerHeight }] - The size of the canvas.
 	 * @since 1.0
